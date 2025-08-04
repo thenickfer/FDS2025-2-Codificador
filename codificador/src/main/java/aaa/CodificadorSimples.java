@@ -1,3 +1,5 @@
+package aaa;
+
 import java.time.LocalDate;
 
 public class CodificadorSimples implements Codificador {
