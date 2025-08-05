@@ -2,7 +2,7 @@ package aaa;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Codificador cod = new CodSla();
+        Codificador cod = Factory.criaCod(6);
 
         System.out.println("Codificador: "+cod.getNome());
         System.out.println("Versao: "+cod.getDataCriacao());
